@@ -1,12 +1,11 @@
 #!/usr/bin/env node
 
 var p = ''
-  , argv = require('optimist').argv
   , writeFile = require('fs').writeFile
   , resolve = require('path').resolve
 
-if (argv._.length) {
-  p = argv._[0];
+if (process.argv[2]) {
+  p = process.argv[2];
 }
 p = p.replace(/\/?package\.json$/, '');
 p || (p = '.');
