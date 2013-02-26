@@ -6,9 +6,9 @@ easy command to bundle all your dependencies
 Bundling your dependencies has some advantages:
 
 1. your module will install faster
-2. your node_modules folder can contain tweaked or forked modules
+2. your `node_modules` folder can contain tweaked or forked modules
 3. locks down your dependency code for predictability in production
-4. allows you to use private/git module dependencies with [amino-deploy](https://github.com/amino/amino-deploy)
+4. allows you to use private/git dependencies with [amino-deploy](https://github.com/amino/amino-deploy)
 
 And disadvantages:
 
