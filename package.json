@@ -1,6 +1,6 @@
 {
   "name": "bundle-deps",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "easy command to bundle all your dependencies",
   "bin": "./bundle-deps.js",
   "repository": {
