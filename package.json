@@ -1,0 +1,19 @@
+{
+  "name": "bundle-deps",
+  "version": "0.0.0",
+  "description": "easy command to bundle all your dependencies",
+  "bin": "./bundle-deps.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/bundle-deps.git"
+  },
+  "keywords": [
+    "bundle",
+    "dependencies",
+    "npm",
+    "package",
+    "json"
+  ],
+  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+  "license": "MIT"
+}
