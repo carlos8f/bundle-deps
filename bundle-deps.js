@@ -17,7 +17,7 @@ delete data.bundleDependencies;
 delete data.bundledDependencies;
 data.bundledDependencies = Object.keys(data.dependencies || {});
 
-writeFile(p, JSON.stringify(data, null, 2), 'utf8', function (err) {
+writeFile(p, JSON.stringify(data, null, 2) + '\n', 'utf8', function (err) {
   if (err) throw err;
   console.log('bundled ' + data.bundledDependencies.length + ' dependencies.');
 });
